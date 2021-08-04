@@ -97,10 +97,17 @@
               "src/styles.css"
             ],
             "scripts": []
-          }
-        }
-      }
-    }
-  },
-  "defaultProject": "epam-angular-course-app"
-}
+
+              }    },
+              
+              "deploy": {    "builder": "angular-cli-ghpages:deploy",  
+                  "options": {    "baseHref": "https://AniCoding.github.io/Epam-angular-course/",    
+                    "name": "Epam-angular-course-app",    "email": " ani.webdevelopment@gmail.com"  
+                      }   
+                       }
+                           }
+                              } 
+                                },       
+                     "defaultProject": "CustomerInfoForm"  
+                     }
+    
